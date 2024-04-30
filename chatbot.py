@@ -1,8 +1,6 @@
 import streamlit as st
 import cohere
 
-
-
 # An example LLM chatbot using Cohere API and Streamlit
 # Adapted from the StreamLit OpenAI Chatbot example - https://github.com/streamlit/llm-examples/blob/main/Chatbot.py
 
