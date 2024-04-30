@@ -1,15 +1,17 @@
 import streamlit as st
 import cohere
 
+
+
 # An example LLM chatbot using Cohere API and Streamlit
 # Adapted from the StreamLit OpenAI Chatbot example - https://github.com/streamlit/llm-examples/blob/main/Chatbot.py
 
 with st.sidebar:
-    if not 'COHERE_API_KEY' in globals():
+    if 'COHERE_API_KEY' in st.secrets:
         cohere_api_key = st.text_input("Cohere API Key", key="chatbot_api_key", type="password")
         "[Get a Cohere API Key](https://dashboard.cohere.ai/api-keys)"
     else:
-        cohere_api_key = COHERE_API_KEY
+        cohere_api_key = st.secrets['COHERE_API_KEY']
 
 st.title("💬 My First Chatbot")
 
