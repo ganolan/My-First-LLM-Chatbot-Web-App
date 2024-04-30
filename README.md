@@ -1,2 +1,2 @@
 # My First LLM Chatbot
- A template LLM chatbot created with Cohere and Streamlit
+ An example LLM chatbot created with Cohere API and Streamlit
