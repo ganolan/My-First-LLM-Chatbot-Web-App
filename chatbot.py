@@ -9,8 +9,8 @@ with st.sidebar:
     #     if 'COHERE_API_KEY' in st.secrets:
     #         cohere_api_key = st.secrets['COHERE_API_KEY']
     # else:
-        cohere_api_key = st.text_input("Cohere API Key", key="chatbot_api_key", type="password")
-        st.markdown("[Get a Cohere API Key](https://dashboard.cohere.ai/api-keys)")
+    cohere_api_key = st.text_input("Cohere API Key", key="chatbot_api_key", type="password")
+    st.markdown("[Get a Cohere API Key](https://dashboard.cohere.ai/api-keys)")
 
 st.title("💬 My First Chatbot")
 
@@ -31,6 +31,6 @@ if prompt := st.chat_input():
                            chat_history=st.session_state.messages,
                            message=prompt)
     st.session_state.messages.append({"role": "user", "text": prompt})
-    msg = response.text #response.choices[0].message.content
+    msg = response.text #Same as response.choices[0].message.content
     st.session_state.messages.append({"role": "assistant", "text": msg})
     st.chat_message("assistant").write(msg)
