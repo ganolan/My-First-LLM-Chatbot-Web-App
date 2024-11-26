@@ -1,4 +1,4 @@
-# My First LLM Chatbot
+# My First LLM Chatbot Web App
  An example LLM chatbot created with Cohere API and Streamlit
 
 ## Quick Start
