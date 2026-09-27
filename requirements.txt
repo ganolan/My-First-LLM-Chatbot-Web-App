@@ -1,1 +1,2 @@
-cohere==5.3.3
+cohere>=7.1
+streamlit>=1.40
