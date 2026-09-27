@@ -2,7 +2,7 @@
 
 A chatbot in a web page, built with [Cohere](https://cohere.com) and [Streamlit](https://streamlit.io).
 
-Follow [How to Build and Deploy a Streamlit Chatbot](https://ganolan.github.io/concept-library/tutorials/build-and-deploy-a-streamlit-chatbot/) to make your own copy and publish it on Streamlit Community Cloud, all in the browser. You need a Cohere key: [How to Set Up Python and a Cohere Key](https://ganolan.github.io/concept-library/tutorials/set-up-python-and-a-cohere-key/).
+Follow [How to Build and Deploy a Streamlit Chatbot](https://ganolan.github.io/concept-library/tutorials/build-and-deploy-a-streamlit-chatbot/) to make your own copy and publish it on Streamlit Community Cloud, all in the browser. You need a Cohere key: [How to Install Python and Get a Cohere Key](https://ganolan.github.io/concept-library/tutorials/install-python-and-get-a-cohere-key/).
 
 To make it your own, change the three lines at the top of `streamlit_app.py`: the title, the greeting and the instructions.
 
